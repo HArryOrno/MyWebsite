@@ -6,10 +6,10 @@ import Skills from './Skills'
 const SideBar = () => {
     return (
         <aside className="SideBar">
-            { <Profile /> }
-            { <Contact_Info /> }
-            { <Skills /> }
-            { <References /> }
+            {<Profile />}
+            {<Contact_Info />}
+            {<Skills />}
+            {<References />}
         </aside >
     )
 }

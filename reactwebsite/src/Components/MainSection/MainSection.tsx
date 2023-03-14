@@ -5,14 +5,14 @@ import Experience from "./Experience"
 const MainSection = () => {
     return (
 
-            <section className="Main-Section">
-                { <AboutMe /> }
+        <section className="Main-Section">
+            {<AboutMe />}
 
-                { <Experience /> }
+            {<Experience />}
 
-                { <Education /> }
+            {<Education />}
 
-            </section>
+        </section>
     )
 }
 

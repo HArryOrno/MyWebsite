@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.74-alpha">
+  <PropertyGroup>
+    <StartupCommand>set BROWSER=none&amp;&amp;npm start</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    <BuildCommand>
+    </BuildCommand>
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+    <ProductionBuildCommand>npm run build</ProductionBuildCommand>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\build</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="Mywebsite\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\Properties\launchSettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\obj\webapi.csproj.nuget.g.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\obj\webapi.csproj.nuget.g.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\obj\webapi.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\obj\project.nuget.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\obj\project.assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\appsettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\webapi\appsettings.Development.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\reactapp\package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mywebsite\reactapp\nuget.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mywebsite\webapi\Controllers\" />
+  </ItemGroup>
+</Project>
