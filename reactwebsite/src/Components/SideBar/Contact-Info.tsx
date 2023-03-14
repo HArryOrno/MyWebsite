@@ -15,6 +15,7 @@ const Contact_Info = () => {
                 <li className="List__List-Item">
                     <i className="List-Item__Symbol"> 🌍 </i>
                     Harryorno.se
+
                 </li>
                 <li className="List__List-Item">
                     <i className="List-Item__Symbol"> 🖈 </i>

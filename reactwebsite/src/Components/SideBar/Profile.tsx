@@ -7,6 +7,7 @@ const Profile = () => {
             <p className="Profile__Name">HARRY {'\u00D6'}RN{'\u00D6'} PERSSON</p>
             <p className="Profile__Title">Junior developer</p>
         </section>
+
     )
 }
 

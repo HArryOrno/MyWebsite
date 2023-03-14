@@ -13,6 +13,7 @@ const MainSection = () => {
             {<Education />}
 
         </section>
+
     )
 }
 

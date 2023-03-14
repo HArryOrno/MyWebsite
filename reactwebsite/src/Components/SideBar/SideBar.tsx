@@ -10,6 +10,7 @@ const SideBar = () => {
             {<Contact_Info />}
             {<Skills />}
             {<References />}
+
         </aside >
     )
 }
