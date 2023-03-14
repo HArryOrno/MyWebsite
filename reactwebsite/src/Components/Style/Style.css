@@ -3,7 +3,9 @@
 }
 
 @media only screen and (min-width: 1450px) {
-    .PageWrap {
+
+    .CV {
+
         min-height: 100vh;
         width: 80%;
         margin: 2rem auto;
@@ -20,11 +22,6 @@
     align-items: center;
 }
 
-.SiteHeader__NavBar {
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
-    column-gap: 20px;
-}
 
 .SideBar {
     grid-column: span 2;

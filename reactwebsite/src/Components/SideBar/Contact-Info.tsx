@@ -14,7 +14,8 @@ const Contact_Info = () => {
                 </li>
                 <li className="List__List-Item">
                     <i className="List-Item__Symbol"> 🌍 </i>
-                    LoremIpsum.se
+                    Harryorno.se
+
                 </li>
                 <li className="List__List-Item">
                     <i className="List-Item__Symbol"> 🖈 </i>
