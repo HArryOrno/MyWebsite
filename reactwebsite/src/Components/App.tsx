@@ -15,14 +15,14 @@ const App: React.FC = () => {
     return (
         <div className="App">
             <header className="SiteHeader">
-                <h1>All about me - All the time</h1>
+                <h1>All you need to know about me - All the time</h1>
                 <h2>Welcome to my peronsal site!</h2>
-                <nav className="SiteHeader__NavBar">
-                    <select value={selectedState} onChange={changeSelected}>
-                        <option value="CV">CV</option>
-                        <option value="CALCULATOR">Calculator (Not yet implemented)</option>
-                    </select>
-                </nav>
+                {/*<nav className="SiteHeader__NavBar">*/}
+                {/*    <select value={selectedState} onChange={changeSelected}>*/}
+                {/*        <option value="CV">CV</option>*/}
+                {/*        <option value="CALCULATOR">Calculator (Not yet implemented)</option>*/}
+                {/*    </select>*/}
+                {/*</nav>*/}
             </header>
 
             <main className="CV">
